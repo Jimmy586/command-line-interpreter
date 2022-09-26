@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="starter.GUI">
+  <grid id="27dc6" binding="main_panel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="644" height="532"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <scrollpane id="54912">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c9029" class="javax.swing.JTextArea" binding="console">
+            <constraints/>
+            <properties>
+              <background color="-16777216"/>
+              <caretColor color="-1"/>
+              <font name="Lucida Console" size="14" style="0"/>
+              <foreground color="-657931"/>
+              <lineWrap value="true"/>
+              <margin top="5" left="5" bottom="5" right="5"/>
+              <tabSize value="4"/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
